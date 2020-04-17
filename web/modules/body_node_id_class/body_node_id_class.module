@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * Adds a node ID class to the <body> tag.
+ */
+
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_preprocess_html().
+ */
+function body_node_id_class_preprocess_html(&$variables) {
+  // Add node id to the body class.
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if ($node instanceof Node) {
+    $variables['attributes']['class'][] = 'page-node-' . $node->id();
+    $variables['attributes']['class'][] = 'page-node-type-' . $node->bundle();
+  }
+  else {
+    $variables['attributes']['class'][] = 'page-node-' . $node;
+  }
+}
+

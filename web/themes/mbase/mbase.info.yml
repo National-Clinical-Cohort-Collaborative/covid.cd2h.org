@@ -1,0 +1,70 @@
+name: Modern Base theme
+type: theme
+base theme: false
+description: 'Base theme based on modern frontend frameworks. Help to create rapid modern web for drupal 8.'
+package: 'mbase'
+
+regions:
+  branding: 'Branding'
+  navigation: 'Navigation'
+  header: 'Header'
+  highlighted: 'Highlignted'
+  help: 'Help'
+  content: 'Main Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer: 'Footer'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
+
+# core: 8.x
+# version: VERSION
+stylesheets-remove:
+  - 'core/misc/vertical-tabs.css'
+  - '@system/css/system.theme.css'
+  - '@system/css/system.module.css'
+  - '@system/css/components/container-inline.module.css'
+  - 'core/assets/vendor/normalize-css/normalize.css'
+  - 'core/misc/dropbutton/dropbutton.css'
+  - 'core/misc/dropbutton/dropbutton.theme.css'
+  - '@stable/css/system/system.admin.css'
+  - '@stable/css/system/components/tabledrag.module.css'
+  - '@stable/css/system/components/fieldgroup.module.css'
+  - '@stable/css/core/dropbutton/dropbutton.css'
+# Remove some scripts
+javascript-remove:
+  - 'core/modules/text/text.js'
+
+libraries-override:
+#  "@system/css": false
+#  system/admin: false
+
+# Add Main Bootstrap CDNs
+bs-cdn-css: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
+bs-cdn-js: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
+
+libraries:
+ - mbase/globalscripts
+
+# version: '8.x-3.x-dev'
+# core: '8.x'
+# project: 'mbase'
+# datestamp: 1434064033
+
+# Information added by Drupal.org packaging script on 2015-10-05
+# version: '8.x-1.0-alpha1+6-dev'
+# core: '8.x'
+# project: 'mbase'
+# datestamp: 1444044172
+
+# Information added by Drupal.org packaging script on 2016-02-15
+# version: '8.x-1.0'
+# core: '8.x'
+# project: 'mbase'
+# datestamp: 1455557640
+
+# Information added by Drupal.org packaging script on 2017-04-27
+version: '8.x-1.1'
+core: '8.x'
+project: 'mbase'
+datestamp: 1493296750

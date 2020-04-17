@@ -1,0 +1,617 @@
+/* color field classes */
+.clr-base-background-color {
+  background-color: #f8f8f8;
+}
+.clr-base-color {
+  color: #f8f8f8;
+}
+.clr-base-border-color {
+  border-color: #f8f8f8;
+}
+.clr-base-border-top-color {
+  border-top-color: #f8f8f8;
+}
+.clr-base-border-bottom-color {
+  border-bottom-color: #f8f8f8;
+}
+.clr-base-border-left-color {
+  border-left-color: #f8f8f8;
+}
+.clr-base-border-right-color {
+  border-right-color: #f8f8f8;
+}
+.clr-base-column-rule-color {
+  -webkit-column-rule-color: #f8f8f8;
+  -moz-column-rule-color: #f8f8f8;
+  column-rule-color: #f8f8f8;
+}
+.clr-base-outline-color {
+  outline-color: #f8f8f8;
+}
+.clr-base-text-decoration-color {
+  -moz-text-decoration-color: #f8f8f8;
+  text-decoration-color: #f8f8f8;
+}
+
+.clr-header-link-background-color {
+  background-color: #787878;
+}
+.clr-header-link-color {
+  color: #787878;
+}
+.clr-header-link-border-color {
+  border-color: #787878;
+}
+.clr-header-link-border-top-color {
+  border-top-color: #787878;
+}
+.clr-header-link-border-bottom-color {
+  border-bottom-color: #787878;
+}
+.clr-header-link-border-left-color {
+  border-left-color: #787878;
+}
+.clr-header-link-border-right-color {
+  border-right-color: #787878;
+}
+.clr-header-link-column-rule-color {
+  -webkit-column-rule-color: #787878;
+  -moz-column-rule-color: #787878;
+  column-rule-color: #787878;
+}
+.clr-header-link-outline-color {
+  outline-color: #787878;
+}
+.clr-header-link-text-decoration-color {
+  -moz-text-decoration-color: #787878;
+  text-decoration-color: #787878;
+}
+
+.clr-sitename-background-color {
+  background-color: #777777;
+}
+.clr-sitename-color {
+  color: #777777;
+}
+.clr-sitename-border-color {
+  border-color: #777777;
+}
+.clr-sitename-border-top-color {
+  border-top-color: #777777;
+}
+.clr-sitename-border-bottom-color {
+  border-bottom-color: #777777;
+}
+.clr-sitename-border-left-color {
+  border-left-color: #777777;
+}
+.clr-sitename-border-right-color {
+  border-right-color: #777777;
+}
+.clr-sitename-column-rule-color {
+  -webkit-column-rule-color: #777777;
+  -moz-column-rule-color: #777777;
+  column-rule-color: #777777;
+}
+.clr-sitename-outline-color {
+  outline-color: #777777;
+}
+.clr-sitename-text-decoration-color {
+  -moz-text-decoration-color: #777777;
+  text-decoration-color: #777777;
+}
+.clr-headings-background-color {
+  background-color: #333333;
+}
+.clr-headings-color {
+  color: #333333;
+}
+.clr-headings-border-color {
+  border-color: #333333;
+}
+.clr-headings-border-top-color {
+  border-top-color: #333333;
+}
+.clr-headings-border-bottom-color {
+  border-bottom-color: #333333;
+}
+.clr-headings-border-left-color {
+  border-left-color: #333333;
+}
+.clr-headings-border-right-color {
+  border-right-color: #333333;
+}
+.clr-headings-column-rule-color {
+  -webkit-column-rule-color: #333333;
+  -moz-column-rule-color: #333333;
+  column-rule-color: #333333;
+}
+.clr-headings-outline-color {
+  outline-color: #333333;
+}
+.clr-headings-text-decoration-color {
+  -moz-text-decoration-color: #333333;
+  text-decoration-color: #333333;
+}
+.clr-borders-background-color {
+  background-color: #e7e7e7;
+}
+.clr-borders-color {
+  color: #e7e7e7;
+}
+.clr-borders-border-color {
+  border-color: #e7e7e7;
+}
+.clr-borders-border-top-color {
+  border-top-color: #e7e7e7;
+}
+.clr-borders-border-bottom-color {
+  border-bottom-color: #e7e7e7;
+}
+.clr-borders-border-left-color {
+  border-left-color: #e7e7e7;
+}
+.clr-borders-border-right-color {
+  border-right-color: #e7e7e7;
+}
+.clr-borders-column-rule-color {
+  -webkit-column-rule-color: #e7e7e7;
+  -moz-column-rule-color: #e7e7e7;
+  column-rule-color: #e7e7e7;
+}
+.clr-borders-outline-color {
+  outline-color: #e7e7e7;
+}
+.clr-borders-text-decoration-color {
+  -moz-text-decoration-color: #e7e7e7;
+  text-decoration-color: #e7e7e7;
+}
+.clr-link-background-color {
+  background-color: #337ab7;
+}
+.clr-link-color {
+  color: #337ab7;
+}
+.clr-link-border-color {
+  border-color: #337ab7;
+}
+.clr-link-border-top-color {
+  border-top-color: #337ab7;
+}
+.clr-link-border-bottom-color {
+  border-bottom-color: #337ab7;
+}
+.clr-link-border-left-color {
+  border-left-color: #337ab7;
+}
+.clr-link-border-right-color {
+  border-right-color: #337ab7;
+}
+.clr-link-column-rule-color {
+  -webkit-column-rule-color: #337ab7;
+  -moz-column-rule-color: #337ab7;
+  column-rule-color: #337ab7;
+}
+.clr-link-outline-color {
+  outline-color: #337ab7;
+}
+.clr-link-text-decoration-color {
+  -moz-text-decoration-color: #337ab7;
+  text-decoration-color: #337ab7;
+}
+.clr-text-background-color {
+  background-color: #323232;
+}
+.clr-text-color {
+  color: #323232;
+}
+.clr-text-border-color {
+  border-color: #323232;
+}
+.clr-text-border-top-color {
+  border-top-color: #323232;
+}
+.clr-text-border-bottom-color {
+  border-bottom-color: #323232;
+}
+.clr-text-border-left-color {
+  border-left-color: #323232;
+}
+.clr-text-border-right-color {
+  border-right-color: #323232;
+}
+.clr-text-column-rule-color {
+  -webkit-column-rule-color: #323232;
+  -moz-column-rule-color: #323232;
+  column-rule-color: #323232;
+}
+.clr-text-outline-color {
+  outline-color: #323232;
+}
+.clr-text-text-decoration-color {
+  -moz-text-decoration-color: #323232;
+  text-decoration-color: #323232;
+}
+.clr-body-bg-background-color {
+  background-color: #ffffff;
+}
+.clr-body-bg-color {
+  color: #ffffff;
+}
+.clr-body-bg-border-color {
+  border-color: #ffffff;
+}
+.clr-body-bg-border-top-color {
+  border-top-color: #ffffff;
+}
+.clr-body-bg-border-bottom-color {
+  border-bottom-color: #ffffff;
+}
+.clr-body-bg-border-left-color {
+  border-left-color: #ffffff;
+}
+.clr-body-bg-border-right-color {
+  border-right-color: #ffffff;
+}
+.clr-body-bg-column-rule-color {
+  -webkit-column-rule-color: #ffffff;
+  -moz-column-rule-color: #ffffff;
+  column-rule-color: #ffffff;
+}
+.clr-body-bg-outline-color {
+  outline-color: #ffffff;
+}
+.clr-body-bg-text-decoration-color {
+  -moz-text-decoration-color: #ffffff;
+  text-decoration-color: #ffffff;
+}
+.clr-footer-text-background-color {
+  background-color: #343434;
+}
+.clr-footer-text-color {
+  color: #343434;
+}
+.clr-footer-text-border-color {
+  border-color: #343434;
+}
+.clr-footer-text-border-top-color {
+  border-top-color: #343434;
+}
+.clr-footer-text-border-bottom-color {
+  border-bottom-color: #343434;
+}
+.clr-footer-text-border-left-color {
+  border-left-color: #343434;
+}
+.clr-footer-text-border-right-color {
+  border-right-color: #343434;
+}
+.clr-footer-text-column-rule-color {
+  -webkit-column-rule-color: #343434;
+  -moz-column-rule-color: #343434;
+  column-rule-color: #343434;
+}
+.clr-footer-text-outline-color {
+  outline-color: #343434;
+}
+.clr-footer-text-text-decoration-color {
+  -moz-text-decoration-color: #343434;
+  text-decoration-color: #343434;
+}
+.clr-footer-bg-background-color {
+  background-color: #fefefe;
+}
+.clr-footer-bg-color {
+  color: #fefefe;
+}
+.clr-footer-bg-border-color {
+  border-color: #fefefe;
+}
+.clr-footer-bg-border-top-color {
+  border-top-color: #fefefe;
+}
+.clr-footer-bg-border-bottom-color {
+  border-bottom-color: #fefefe;
+}
+.clr-footer-bg-border-left-color {
+  border-left-color: #fefefe;
+}
+.clr-footer-bg-border-right-color {
+  border-right-color: #fefefe;
+}
+.clr-footer-bg-column-rule-color {
+  -webkit-column-rule-color: #fefefe;
+  -moz-column-rule-color: #fefefe;
+  column-rule-color: #fefefe;
+}
+.clr-footer-bg-outline-color {
+  outline-color: #fefefe;
+}
+.clr-footer-bg-text-decoration-color {
+  -moz-text-decoration-color: #fefefe;
+  text-decoration-color: #fefefe;
+}
+/* Drupal */
+header#navbar {
+  background-color: #f8f8f8;
+}
+.dropdown-menu {
+  background-color: #f8f8f8 !important;
+}
+header#navbar,
+header#navbar a,
+header#navbar a:hover {
+  color: #787878;
+}
+button.navbar-toggle {
+  border-color: #787878;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #787878;
+}
+
+footer#footer {
+  background-color: #fefefe;
+}
+footer#footer,
+footer#footer a,
+footer#footer a:hover,
+footer#footer a:focus,
+footer#footer h1,
+footer#footer h2,
+footer#footer h3,
+footer#footer h4,
+footer#footer h5,
+footer#footer h6 {
+  color: #343434;
+}
+
+
+/* common */
+/* convert #f5f5f5 to #ddd */
+
+.well,
+pre,
+.table-hover > tbody > tr:hover ,
+.table > thead > tr > td.active,
+.table > tbody > tr > td.active,
+.table > tfoot > tr > td.active,
+.table > thead > tr > th.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > tbody > tr.active > td,
+.table > tfoot > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr.active > th,
+.table > tfoot > tr.active > th ,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.breadcrumb,
+.progress ,
+a.list-group-item:hover,
+button.list-group-item:hover,
+a.list-group-item:focus,
+button.list-group-item:focus,
+.panel-footer ,
+.panel-default > .panel-heading {
+  background-color: #f5f5f5;
+}
+
+.fieldset,
+.well,
+.img-thumbnail,
+.table-bordered,
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus ,
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus,
+.nav-tabs-justified > .active > a,
+.nav-tabs-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus,
+.pagination > li > a,
+.pagination > li > span  ,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus,
+.pager li > a,
+.pager li > span  ,
+.thumbnail  ,
+.panel-footer,
+.panel-default ,
+.panel-default > .panel-heading,
+.well blockquote,
+.navbar-default .navbar-toggle,
+.list-group-item,
+.jumbotron {
+  border-color: #ddd;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td,
+.table > tbody + tbody ,
+.panel > .panel-body + .table,
+.panel > .panel-body + .table-responsive,
+.panel > .table + .panel-body,
+.panel > .table-responsive + .panel-body,
+.panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-default > .panel-heading + .panel-collapse > .panel-body ,
+.list-group-item,
+hr {
+  border-top: 1px solid #ddd;
+}
+
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    border: 1px solid #ddd;
+  }
+}
+
+.nav-tabs,
+.panel-group .panel-footer + .panel-collapse .panel-body,
+.panel-default > .panel-footer + .panel-collapse > .panel-body,
+.table > thead > tr > th,
+.page-header {
+  border-bottom: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a ,
+  .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+/* text color #ffffff */
+kbd ,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus ,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-link:hover ,
+.navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link:focus  ,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.label,
+a.label:hover,
+a.label:focus ,
+.badge,
+a.badge:hover,
+a.badge:focus ,
+.progress-bar,
+a.list-group-item-success.active,
+button.list-group-item-success.active,
+a.list-group-item-success.active:hover,
+button.list-group-item-success.active:hover,
+a.list-group-item-success.active:focus,
+button.list-group-item-success.active:focus ,
+a.list-group-item-info.active,
+button.list-group-item-info.active,
+a.list-group-item-info.active:hover,
+button.list-group-item-info.active:hover,
+a.list-group-item-info.active:focus,
+button.list-group-item-info.active:focus,
+a.list-group-item-warning.active,
+button.list-group-item-warning.active,
+a.list-group-item-warning.active:hover,
+button.list-group-item-warning.active:hover,
+a.list-group-item-warning.active:focus,
+button.list-group-item-warning.active:focus ,
+a.list-group-item-danger.active,
+button.list-group-item-danger.active,
+a.list-group-item-danger.active:hover,
+button.list-group-item-danger.active:hover,
+a.list-group-item-danger.active:focus,
+button.list-group-item-danger.active:focus,
+.panel-primary > .panel-heading,
+.tooltip-inner,
+.carousel-control,
+.carousel-control:hover,
+.carousel-control:focus,
+.carousel-caption,
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+  }
+}
+/* text color #333 to #343434 */
+body,
+pre,
+legend,
+.dropdown-menu > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-link:hover,
+.thumbnail .caption,
+a.list-group-item .list-group-item-heading,
+button.list-group-item .list-group-item-heading,
+.panel-default > .panel-heading,
+.help-block {
+  color: #333333;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+  }
+}
+/*background white*/
+body,
+.img-thumbnail ,
+.table .table,
+.form-control,
+.dropdown-menu ,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.navbar-inverse .navbar-toggle .icon-bar ,
+.pagination > li > a,
+.pagination > li > span ,
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus,
+.pager li > a,
+.pager li > span,
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span,
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge,
+.thumbnail,
+.list-group-item,
+.panel ,
+.panel-primary > .panel-heading .badge,
+.modal-content,
+.carousel-indicators .active {
+  background-color: #ffffff;
+}

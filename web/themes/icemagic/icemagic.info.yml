@@ -1,0 +1,50 @@
+name: IceMagic
+type: theme
+base theme: mbase
+description: 'Sub-theme for <a href = "https://www.drupal.org/project/mbase" target = "_blank"> mbase</a> template. Generated using <a href = "http://cmsbots.com" target = "_blank">cmsbots.com</a>'
+package: CMSbots
+libraries:
+  - icemagic/global-styling
+
+# version: VERSION
+# core: 8.x
+
+regions:
+  home_welcome: Homepage Welcome
+  content_about: Homepage content About
+  content_positive: Homepage content Positive
+  content_boxed: Homepage content Boxed
+  content_bottom_box: Homepage content Bottom Box
+  footer: Footer
+  footer_copyright: Footer Copyright
+  footer_menu: Footer Menu
+  footer_social: Footer Social
+  branding: Branding
+  navigation: Navigation
+  header: Header
+  highlighted: Highlignted
+  help: Help
+  content: Main Content
+  sidebar_first: Sidebar First
+  sidebar_second: Sidebar Second
+  page_top: Page Top
+  page_bottom: Page Bottom
+  front_block_1: Front Block 1
+  front_block_2: Front Block 2
+  front_block_3: Front Block 3
+  front_block_4: Front Block 4
+  front_block_5: Front Block 5
+  front_block_6: Front Block 6
+  logo_image: Logo Image Box
+  bottom_content: Bottom Content
+# version: 8.x-3.x-dev
+# core: 8.x
+# project: icemagic
+# datestamp: 1434064033
+
+
+# Information added by Drupal.org packaging script on 2016-10-24
+version: '8.x-1.0'
+core: '8.x'
+project: 'icemagic'
+datestamp: 1477326240

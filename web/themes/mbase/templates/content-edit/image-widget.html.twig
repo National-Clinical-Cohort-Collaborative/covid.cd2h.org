@@ -1,0 +1,37 @@
+{#
+/**
+ * @file
+ * Theme override for an image field widget.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the containing element.
+ * - data: Render elements of the image widget.
+ *
+ * @see template_preprocess_image_widget()
+ */
+#}
+<div{{ attributes }}>
+  <div class="input-group mbase-file-upload">
+  {{ element.upload }}
+    <span class="input-group-btn">{{ element.upload_button }}</span>
+  </div>
+
+    <div class = "clearfix image-widget-wrapper">
+    {% if data.preview %}
+      <div class="image-preview visible-lg-inline-block visible-md-inline-block visible-sm-inline-block visible-xs-block">
+        {{ data.preview }}
+      </div>
+    {% endif %}
+      <div class="image-data visible-lg-inline-block visible-md-inline-block visible-sm-inline-block visible-xs-block">
+        {# Render widget data without the image preview that was output already. #}
+        {{ data|without('preview', 'alt', 'title', 'upload', 'upload_button') }}
+      </div>  
+    </div>
+  
+  {% if data.alt or data.title %}
+    <div class="image-widget-texts clear-fix">
+      {{ data.alt }}
+      {{ data.title }}
+    </div>
+  {% endif %}
+</div>

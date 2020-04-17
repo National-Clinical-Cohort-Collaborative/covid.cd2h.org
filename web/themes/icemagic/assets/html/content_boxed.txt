@@ -1,0 +1,69 @@
+<div class="content-boxed plugin-content" id = "content-boxed">
+  <div class="container">
+    <div class="row text-center top-header">
+      <div class = "face-icon col-sm-12"><i class="fa fa-wpforms fa-4x" aria-hidden="true"></i></div>
+      <h2 class="title block-title">What we do</h2>
+    </div>
+    <div class = "block-content">
+      <div class = "row intro-text">
+        <div class = "col-xs-12 text-center">
+          Let our acclaimed team of career advisors & professional resume writers help you land that job or promotion. From resume & cover letter writing services, to interview preparation and salary negotiation tips, as well as complete career counseling, we’ve got you covered.
+        </div>
+      </div>
+      <div class= "row content-boxes">
+        <div class="col-sm-6 col-md-3 col-xs-12 content-box">
+          <div class="content-box-inner">
+            <h4 class="title">We Design</h4>
+            <div class="details">
+              <div class="desc">Transform your resumeish Transform your resume from start t from start to finish Transform your resume from start to finish</div>
+              <div class="cta text-right"> 
+                <a href = "" class = "btn cb-bordered-2 cb-rc-5px-f">
+                Learn more <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-xs-12 content-box">
+          <div class="content-box-inner">
+            <h4 class="title">We Develop</h4>
+            <div class="details">
+              <div class="desc">Transform your resumeish Transform your resume from start t from start to finish Transform your resume from start to finish</div>
+              <div class="cta text-right"> 
+                <a href = "" class = "btn cb-bordered-2 cb-rc-5px-f">
+                Learn more <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-xs-12 content-box">
+          <div class="content-box-inner">
+            <h4 class="title">We Test</h4>
+            <div class="details">
+              <div class="desc">Transform your resumeish Transform your resume from start t from start to finish Transform your resume from start to finish</div>
+              <div class="cta text-right"> 
+                <a href = "" class = "btn cb-bordered-2 cb-rc-5px-f">
+                Learn more <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-xs-12 content-box">
+          <div class="content-box-inner">
+            <h4 class="title">We Deploy</h4>
+            <div class="details">
+              <div class="desc">Transform your resumeish Transform your resume from start t from start to finish Transform your resume from start to finish</div>
+              <div class="cta text-right"> 
+                <a href = "" class = "btn cb-bordered-2 cb-rc-5px-f">
+                Learn more <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

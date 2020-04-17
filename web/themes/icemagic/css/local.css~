@@ -1,0 +1,32 @@
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom css and css overrides in this file.   */ 
+/* By restricting your css changes to local.css, your    */
+/* changes will not be overwritten when upgrading to a   */
+/* new version of this theme.                            */
+
+.guttered {
+	  padding: 0px 10px 0px 10px;
+}
+
+/* approach to responsive iframes from https://benmarshall.me/responsive-iframes/ */
+
+.iframe-container {
+  overflow: hidden;
+  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}

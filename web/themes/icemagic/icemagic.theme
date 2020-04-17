@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * @file
+ * Theme file.
+ *
+ * All preprocessors and theme functions goes here.
+ */
+
+/**
+ * Implements hook_preprocess_page().
+ *
+ * @see page.html.twig
+ */
+function icemagic_preprocess_page(&$variables) {
+  $theme = 'icemagic';
+  // Add content for home page regions.
+  $home_page_regions = array(
+    'home_welcome',
+    'content_about',
+    'content_positive',
+    'content_boxed',
+    'footer',
+    'footer_copyright',
+    'footer_menu',
+    'footer_social',
+  );
+
+  $variables['snippet'] = _mbase_smart_render($home_page_regions, $theme);
+}

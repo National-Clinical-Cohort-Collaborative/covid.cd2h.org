@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Theme override for displaying a tablesort indicator.
+ *
+ * Available variables:
+ * - style: Either 'asc' or 'desc', indicating the sorting direction.
+ *
+ * @see template_preprocess_tablesort_indicator()
+ */
+#}
+{% if style == 'asc' -%}
+  <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+{% else -%}
+  <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+{% endif %}

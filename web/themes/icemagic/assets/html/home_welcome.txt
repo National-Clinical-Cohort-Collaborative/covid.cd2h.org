@@ -1,0 +1,183 @@
+<div class="view header-aqua-slider">
+  <div id="carousel-homeslider-header-aqua-slider" class="carousel slide carousel-homeslider-header-aqua-slider slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-homeslider-header-aqua-slider" data-slide-to="0" class="active"><span></span></li>
+      <li data-target="#carousel-homeslider-header-aqua-slider" data-slide-to="1" class=""><span></span></li>
+      <li data-target="#carousel-homeslider-header-aqua-slider" data-slide-to="2" class=""><span></span></li>
+      <li data-target="#carousel-homeslider-header-aqua-slider" data-slide-to="3" class=""><span></span></li>
+      <li data-target="#carousel-homeslider-header-aqua-slider" data-slide-to="4" class=""><span></span></li>
+    </ol>
+    <div class="view-content carousel-inner text-left" >
+      <div class="views-row item active">
+        <img src="<<path-to-theme>>/assets/images/content-image-header-header-aqua-main-background1.jpg" data-src="" alt="Slider 1">
+        <div class="carousel-caption ">
+          <div class="container">
+            <div class = "row">
+              <div class = "col-md-7 col-sm-7 col-xs-12 text-left">
+                <h1>WE ARE THE BEST </br>FOR YOUR BUSINESS</h1>
+                <div class = "desc">It is long established fact that a thrusr reader will be distracted by the readable content.</div>
+                <div class = "buttons">
+                  <a href = "" class = "btn btn-lg btn-auqa4">LEARN MORE</a>
+                  &nbsp;
+                  <a href = "" class = "btn btn-lg btn-auqa5">LEARN MORE</a>
+                </div>
+              </div>
+              <div class = "col-md-5 col-sm-5 col-offset-md-0 hidden-xs text-left">
+                <ul class = "list-unstyled">
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Accounts</a><a href = "" class = "btn btn-sm btn-auqa2">Business</a><a href = "" class = "btn btn-sm btn-auqa3">Accounter</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Tax</a><a href = "" class = "btn btn-sm btn-auqa2">Company</a><a href = "" class = "btn btn-sm btn-auqa3">Bills</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Quick</a><a href = "" class = "btn btn-sm btn-auqa2">Acqurateurate</a><a href = "" class = "btn btn-sm btn-auqa3">Clients</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="views-row item">
+        <img src="<<path-to-theme>>/assets/images/content-image-header-header-aqua-main-background2.jpg" data-src="" alt="Slider 1">
+        <div class="carousel-caption ">
+          <div class="container">
+            <div class = "row">
+              <div class = "col-md-7 col-sm-7 col-xs-12 text-left">
+                <h1>THIS TEMPLATE CAN BE USED FOR ANY BUSINESS</h1>
+                <div class = "desc">It is long established fact that a thrusr reader will be distracted by the readable content.</div>
+                <div class = "buttons">
+                  <a href = "" class = "btn btn-lg btn-auqa4">LEARN MORE</a>
+                  &nbsp;
+                  <a href = "" class = "btn btn-lg btn-auqa5">LEARN MORE</a>
+                </div>
+              </div>
+              <div class = "col-md-5 col-sm-5 col-offset-md-0 hidden-xs text-left">
+                <ul class = "list-unstyled">
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Accounts</a><a href = "" class = "btn btn-sm btn-auqa2">Business</a><a href = "" class = "btn btn-sm btn-auqa3">Accounter</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Tax</a><a href = "" class = "btn btn-sm btn-auqa2">Company</a><a href = "" class = "btn btn-sm btn-auqa3">Bills</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Quick</a><a href = "" class = "btn btn-sm btn-auqa2">Acqurateurate</a><a href = "" class = "btn btn-sm btn-auqa3">Clients</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="views-row item">
+        <img src="<<path-to-theme>>/assets/images/content-image-header-header-aqua-main-background3.jpg" data-src="" alt="Slider 1">
+        <div class="carousel-caption ">
+          <div class="container">
+            <div class = "row">
+              <div class = "col-md-7 col-sm-7 col-xs-12 text-left">
+                <h1>CHANGE THE COLOR OF THE THEME USING COLOR SETTINGS</h1>
+                <div class = "desc">It is long established fact that a thrusr reader will be distracted by the readable content.</div>
+                <div class = "buttons">
+                  <a href = "" class = "btn btn-lg btn-auqa4">LEARN MORE</a>
+                  &nbsp;
+                  <a href = "" class = "btn btn-lg btn-auqa5">LEARN MORE</a>
+                </div>
+              </div>
+              <div class = "col-md-5 col-sm-5 col-offset-md-0 hidden-xs text-left">
+                <ul class = "list-unstyled">
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Accounts</a><a href = "" class = "btn btn-sm btn-auqa2">Business</a><a href = "" class = "btn btn-sm btn-auqa3">Accounter</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Tax</a><a href = "" class = "btn btn-sm btn-auqa2">Company</a><a href = "" class = "btn btn-sm btn-auqa3">Bills</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Quick</a><a href = "" class = "btn btn-sm btn-auqa2">Acqurateurate</a><a href = "" class = "btn btn-sm btn-auqa3">Clients</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="views-row item">
+        <img src="<<path-to-theme>>/assets/images/content-image-header-header-aqua-main-background4.jpg" data-src="" alt="Slider 1">
+        <div class="carousel-caption ">
+          <div class="container">
+            <div class = "row">
+              <div class = "col-md-7 col-sm-7 col-xs-12 text-left">
+                <h1>AVALIABLE AS BOOTSTRAP HTML, DRUPAL 7 & 8</h1>
+                <div class = "desc">It is long established fact that a thrusr reader will be distracted by the readable content.</div>
+                <div class = "buttons">
+                  <a href = "" class = "btn btn-lg btn-auqa4">LEARN MORE</a>
+                  &nbsp;
+                  <a href = "" class = "btn btn-lg btn-auqa5">LEARN MORE</a>
+                </div>
+              </div>
+              <div class = "col-md-5 col-sm-5 col-offset-md-0 hidden-xs text-left">
+                <ul class = "list-unstyled">
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Accounts</a><a href = "" class = "btn btn-sm btn-auqa2">Business</a><a href = "" class = "btn btn-sm btn-auqa3">Accounter</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Tax</a><a href = "" class = "btn btn-sm btn-auqa2">Company</a><a href = "" class = "btn btn-sm btn-auqa3">Bills</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Quick</a><a href = "" class = "btn btn-sm btn-auqa2">Acqurateurate</a><a href = "" class = "btn btn-sm btn-auqa3">Clients</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="views-row item">
+        <img src="<<path-to-theme>>/assets/images/content-image-header-header-aqua-main-background5.jpg" data-src="" alt="Slider 1">
+        <div class="carousel-caption ">
+          <div class="container">
+            <div class = "row">
+              <div class = "col-md-7 col-sm-7 col-xs-12 text-left">
+                <h1>BOOTSTRAP STANDARD AND FLAT DESIGN</h1>
+                <div class = "desc">It is long established fact that a thrusr reader will be distracted by the readable content.</div>
+                <div class = "buttons">
+                  <a href = "" class = "btn btn-lg btn-auqa4">LEARN MORE</a>
+                  &nbsp;
+                  <a href = "" class = "btn btn-lg btn-auqa5">LEARN MORE</a>
+                </div>
+              </div>
+              <div class = "col-md-5 col-sm-5 col-offset-md-0 hidden-xs text-left">
+                <ul class = "list-unstyled">
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Accounts</a><a href = "" class = "btn btn-sm btn-auqa2">Business</a><a href = "" class = "btn btn-sm btn-auqa3">Accounter</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Tax</a><a href = "" class = "btn btn-sm btn-auqa2">Company</a><a href = "" class = "btn btn-sm btn-auqa3">Bills</a>
+                  </li>
+                  <li>&nbsp;</li>
+                  <li>
+                    <a href = "" class = "btn btn-sm btn-auqa1">Quick</a><a href = "" class = "btn btn-sm btn-auqa2">Acqurateurate</a><a href = "" class = "btn btn-sm btn-auqa3">Clients</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

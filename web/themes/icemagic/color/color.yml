@@ -1,0 +1,190 @@
+fields:
+  base: Base color (800)
+  secondary: Secondary Color (700)
+  link: Links and Footer (600)
+  text: Text color (900)
+  background: Background (50)
+  sidebars: Sidebar Color (200)
+  
+schemes:
+  default :
+    title: Default
+    colors:
+      base: '#006083'
+      secondary: '#228ebd'
+      link: '#62c2f2'
+      text: '#333333'
+      background: '#ffffff'
+      sidebars: '#f0f0f0'
+  red :
+    title: Red
+    colors:
+      base: '#c62828'
+      secondary: '#d32f2f'
+      link: '#e53935'
+      text: '#b71c1c'
+      background: '#fff7f8'
+      sidebars: '#ef9a9a'
+  pink :
+    title: Pink
+    colors:
+      base: '#AD1457'
+      secondary: '#C2185B'
+      link: '#D81B60'
+      text: '#880E4F'
+      background: '#fef4f7'
+      sidebars: '#F48FB1'       
+  purple :
+    title: Purple
+    colors:
+      base: '#6A1B9A'
+      secondary: '#7B1FA2'
+      link: '#8E24AA'
+      text: '#4A148C'
+      background: '#faf5fb'
+      sidebars: '#CE93D8'
+  deeppurple :
+    title: Deep Purple
+    colors:
+      base: '#4527A0'
+      secondary: '#512DA8'
+      link: '#5E35B1'
+      text: '#311B92'
+      background: '#f8f5fb'
+      sidebars: '#B39DDB'
+  indigo :
+    title: Indigo
+    colors:
+      base: '#283593'
+      secondary: '#303F9F'
+      link: '#3949AB'
+      text: '#1A237E'
+      background: '#f6f7fb'
+      sidebars: '#9FA8DA'
+  blue :
+    title: Blue
+    colors:
+      base: '#1565C0'
+      secondary: '#1976D2'
+      link: '#1E88E5'
+      text: '#0D47A1'
+      background: '#f4fafe'
+      sidebars: '#90CAF9'
+  lightblue :
+    title: Light Blue
+    colors:
+      base: '#0277BD'
+      secondary: '#0288D1'
+      link: '#039BE5'
+      text: '#01579B'
+      background: '#f3fbff'
+      sidebars: '#81D4FA'
+  cyan :
+    title: Cyan
+    colors:
+      base: '#00838F'
+      secondary: '#0097A7'
+      link: '#00ACC1'
+      text: '#006064'
+      background: '#f3fcfd'
+      sidebars: '#80DEEA'
+  teal :
+    title: Teal
+    colors:
+      base: '#00695C'
+      secondary: '#00796B'
+      link: '#00897B'
+      text: '#004D40'
+      background: '#f3faf9'
+      sidebars: '#80CBC4'
+  green :
+    title: Green
+    colors:
+      base: '#2E7D32'
+      secondary: '#388E3C'
+      link: '#43A047'
+      text: '#1B5E20'
+      background: '#f6fbf6'
+      sidebars: '#A5D6A7'
+  lightgreen :
+    title: Light Green
+    colors:
+      base: '#558B2F'
+      secondary: '#689F38'
+      link: '#7CB342'
+      text: '#33691E'
+      background: '#f9fcf6'
+      sidebars: '#C5E1A5'
+  lime :
+    title: Lime
+    colors:
+      base: '#9E9D24'
+      secondary: '#AFB42B'
+      link: '#C0CA33'
+      text: '#827717'
+      background: '#fdfdf5'
+      sidebars: '#E6EE9C'
+  yellow :
+    title: Yellow
+    colors:
+      base: '#F9A825'
+      secondary: '#FBC02D'
+      link: '#FDD835'
+      text: '#F57F17'
+      background: '#fffef5'
+      sidebars: '#FFF59D'      
+  amber :
+    title: Amber
+    colors:
+      base: '#FF8F00'
+      secondary: '#FFA000'
+      link: '#FFB300'
+      text: '#FF6F00'
+      background: '#fffffd'
+      sidebars: '#FFECB3'
+  orange :
+    title: Orange
+    colors:
+      base: '#EF6C00'
+      secondary: '#F57C00'
+      link: '#FB8C00'
+      text: '#E65100'
+      background: '#fffaf3'
+      sidebars: '#FFCC80' 
+  deeporange :
+    title: Deep Orange
+    colors:
+      base: '#D84315'
+      secondary: '#E64A19'
+      link: '#F4511E'
+      text: '#BF360C'
+      background: '#fdf6f5'
+      sidebars: '#FFAB91'
+  brown :
+    title: Brown
+    colors:
+      base: '#4E342E'
+      secondary: '#5D4037'
+      link: '#6D4C41'
+      text: '#3E2723'
+      background: '#f9f7f6'
+      sidebars: '#BCAAA4'
+  grey :
+    title: Grey
+    colors:
+      base: '#424242'
+      secondary: '#616161'
+      link: '#757575'
+      text: '#212121'
+      background: '#fdfdfd'
+      sidebars: '#EEEEEE'      
+  bluegrey :
+    title: Blue Grey
+    colors:
+      base: '#37474F'
+      secondary: '#455A64'
+      link: '#546E7A'
+      text: '#263238'
+      background: '#f7f9f9'
+      sidebars: '#B0BEC5'
+      

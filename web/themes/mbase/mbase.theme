@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * @file
+ * Theme file.
+ *
+ * All preprocessors and theme functions goes here.
+ */
+
+include_once dirname(__FILE__) . '/includes/helper.inc';
+include_once dirname(__FILE__) . '/includes/bootstrap.inc';

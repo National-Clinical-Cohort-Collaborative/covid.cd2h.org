@@ -1,0 +1,45 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region div.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+{%
+  set classes = [
+    'region',
+    'region-' ~ region|clean_class,
+    'region-bslistgroups',
+  ]
+%}
+
+{%
+	set colorclass = ''
+%}
+{% if content %}
+<div{{ attributes.addClass(classes) }}>
+<div class="list-group" id="region-{{region}}-comp-bslistgroups">
+{% for item in grouped_blocks %}
+    {% if bootstrap_settings.colorclass[item.weight] %}
+      {% set colorclass = bootstrap_settings.colorclass[item.weight] %}
+    {% else %}
+      {% set colorclass = bootstrap_settings.colorclass[-1] %}
+    {% endif %}
+    <div class="list-group-item {{colorclass}}">
+      {% if item.title %}
+        <h4 class="list-group-item-heading">{{item.title}}</h4>
+      {% endif %}
+      <div class="list-group-item-text">{{item.body}}</div>
+    </div>
+{% endfor %}
+</div>
+</div>
+{% endif %}
+

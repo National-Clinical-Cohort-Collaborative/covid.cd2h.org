@@ -1,0 +1,93 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region div.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+{%
+  set classes = [
+    'region',
+    'region-' ~ region|clean_class,
+    'row',
+    'region-bsmodal',
+  ]
+%}
+{%
+	set buttonstyles = ''
+%}
+{%
+	set modalstyles = 'modal-lg'
+%}
+
+{# Draw the list of all trigger buttons #}
+{% if content %}
+
+  {% if bootstrap_settings.triggerstyle == 'dropdownmenu' %}
+  <div class="dropdown">
+    <button class="btn dropdown-toggle {{bootstrap_settings.dropdownstyle}}" type="button" data-toggle="dropdown">{{bootstrap_settings.dropdowntext}}
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      {% for item in grouped_blocks %}
+        {% if bootstrap_settings.buttonstyles[item.weight] %}
+          {% set buttonstyles = bootstrap_settings.buttonstyles[item.weight] %}
+        {% else %}
+          {% set buttonstyles = bootstrap_settings.buttonstyles[-1] %}
+        {% endif %}
+        <li><a data-toggle="modal" href = "#" class = "btn {{buttonstyles}}" data-target="#{{region}}-{{ item.key }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% elseif  bootstrap_settings.triggerstyle == 'btngrp'%}
+  <div class="btn-group {{bootstrap_settings.buttongroupstyle}}">
+    {% for item in grouped_blocks %}
+      {% if bootstrap_settings.buttonstyles[item.weight] %}
+        {% set buttonstyles = bootstrap_settings.buttonstyles[item.weight] %}
+      {% else %}
+        {% set buttonstyles = bootstrap_settings.buttonstyles[-1] %}
+      {% endif %}
+      <a data-toggle="modal" href = "#" class = "btn {{buttonstyles}}" data-target="#{{region}}-{{ item.key }}">{{ item.title }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+
+
+{# Draw the list of block as Bootstrap modal #}
+<div{{ attributes.addClass(classes) }}>
+{% for item in grouped_blocks %}
+  {% if bootstrap_settings.modalstyles[item.weight] %}
+    {% set modalstyles = bootstrap_settings.modalstyles[item.weight] %}
+  {% else %}
+    {% set modalstyles = bootstrap_settings.modalstyles[-1] %}
+  {% endif %}
+<!-- Modal -->
+<div id="{{region}}-{{ item.key }}" class="modal fade" role="dialog" tabindex='-1'>
+  <div class="modal-dialog {{modalstyles}}">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">{{item.title}}</h4>
+      </div>
+      <div class="modal-body">
+        <div>{{ item.body }}</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+</div>
+

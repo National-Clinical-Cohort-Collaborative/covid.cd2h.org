@@ -1,0 +1,47 @@
+{#
+/**
+ * @file
+ * Theme override to display a file form widget.
+ *
+ * Available variables:
+ * - element: Form element for the file upload.
+ * - attributes: HTML attributes for the containing element.
+ *
+ * @see template_preprocess_file_managed_file()
+ */
+#} 
+{%
+  set classes = [
+    'js-form-managed-file',
+    'form-managed-file',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+
+<div class = "hidden">{{ element.fids }}</div>
+
+<div class="input-group mbase-file-upload">
+{{ element.upload }}
+ <span class="input-group-btn">{{ element.upload_button }}</span>
+</div>
+
+{% if element.description_title %}
+  <div class="input-group">
+    <span class="input-group-addon">{{ element.description_title }}</span>
+    {{ element.description }}
+    <span class="input-group-addon" data-toggle="tooltip" data-placement="left" title="{{ element.description_help }}">
+      <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+    </span>
+  </div>
+
+  <div class="input-group mbase-file-upload">
+    <div class="form-control">
+     <div class = "col-xs-6"> {{ file_display }} </div>
+     <div class = "col-xs-6"> {{ element.display }} </div>
+    </div>
+    <span class="input-group-btn">{{ element.remove_button }}</span>
+  </div>
+
+{% endif %}
+</div>
+
