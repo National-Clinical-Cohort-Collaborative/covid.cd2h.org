@@ -1,0 +1,111 @@
+<?php
+
+/**
+ * @file
+ * Contains google_calendar_service.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Render\Element;
+use Drupal\google_calendar_service\Entity\Calendar;
+use Drupal\views\ViewExecutable;
+
+/**
+ * Implements hook_help().
+ */
+function google_calendar_service_help(
+  $route_name,
+  RouteMatchInterface $route_match) {
+
+  switch ($route_name) {
+    // Main module help for the google_calendar_service module.
+    case 'help.page.google_calendar_service':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t(
+        'Provides an integration with Google Calendar and its events.'
+      ) . '</p>';
+      return $output;
+
+    default:
+      break;
+  }
+}
+
+/**
+ * Implements hook_cron().
+ *
+ * Queues calendars for import.
+ */
+function google_calendar_service_cron() {
+  $secret_uri = \Drupal::config('google_calendar_service.default')
+    ->get('secret_file_uri');
+
+  if (!empty($secret_uri)) {
+    $queue = \Drupal::queue('gcs_calendar_import_processor');
+
+    $query = \Drupal::entityTypeManager()
+      ->getStorage('gcs_calendar')
+      ->getQuery()
+      ->condition('status', 1);
+
+    $cids = $query->execute();
+
+    $calendars = Calendar::loadMultiple($cids);
+    foreach ($calendars as $calendar) {
+      $queue->createItem($calendar);
+    }
+  }
+}
+
+/**
+ * Prepares variables for Calendar templates.
+ *
+ * Default template: calendar-event.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing the user information and any
+ *   - attributes: HTML attributes for the containing element.
+ */
+function google_calendar_service_preprocess_calendar_event(array &$variables) {
+  // Helpful $content variable for templates.
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['content'][$key] = $variables['elements'][$key];
+  }
+}
+
+/**
+ * Prepares variables for Google Calendar templates.
+ *
+ * Default template: calendar.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing the user information and any
+ *   - attributes: HTML attributes for the containing element.
+ */
+function google_calendar_service_preprocess_google_calendar(array &$variables) {
+  // Helpful $content variable for templates.
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['content'][$key] = $variables['elements'][$key];
+  }
+}
+
+/**
+ * Implements hook_views_pre_view().
+ */
+function google_calendar_service_views_pre_view(
+  ViewExecutable $view,
+  $display_id,
+  array &$args) {
+
+  // Store the calendar id.
+  $tempStore = \Drupal::service('user.private_tempstore')
+    ->get('google_calendar_service');
+
+  if (isset($view->args[0])) {
+    $tempStore->set('calendarId', $view->args[0]);
+  }
+
+}

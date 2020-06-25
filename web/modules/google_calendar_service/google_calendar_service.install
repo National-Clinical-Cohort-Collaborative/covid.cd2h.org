@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Contains google_calendar_service.install.
+ */
+
+/**
+ * Implements hook_requirements().
+ */
+function google_calendar_service_requirements($phase) {
+
+  $google_client = TRUE;
+  if ($phase == 'install' || $phase == 'runtime') {
+    // Check to see if Google Api Client is installed.
+    $google_client = class_exists('Google_Client') ? TRUE : FALSE;
+
+    $requirements['google_client'] = [
+      'title' => t('Google API Client'),
+      'value' => $google_client ? t('Enabled') : t('Not installed'),
+      'severity' => $google_client ? REQUIREMENT_OK : REQUIREMENT_ERROR,
+      'description' => t('
+        Google Api Client used for auth and import google calendars. Please
+        install Google Api Client using composer: <strong>"composer require
+        google/apiclient"</strong>.'
+      ),
+    ];
+  }
+
+  return $requirements;
+}

@@ -1,0 +1,11 @@
+name: Google Calendar Service
+type: module
+description: Provides an integration with Google Calendar and related services.
+core: 8.x
+package: Calendars
+configure: google_calendar_service.settings
+
+# Information added by Drupal.org packaging script on 2019-10-17
+version: '8.x-1.1'
+project: 'google_calendar_service'
+datestamp: 1571325247

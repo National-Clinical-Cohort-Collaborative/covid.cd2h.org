@@ -1,0 +1,28 @@
+{
+  "name": "drupal/google_calender_service",
+  "description": "Provides an integration with Google Calendar and related services.",
+  "type": "drupal-module",
+  "minimum-stability": "dev",
+  "homepage": "https://www.drupal.org/project/google_calendar_service",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "skaught (SKAUGHT)",
+      "homepage": "https://www.drupal.org/u/skaught",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Lilian Catanoi (liliancatanoi90)",
+      "homepage": "https://www.drupal.org/u/liliancatanoi90",
+      "role": "Contributor"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/google_calendar_service",
+    "source": "https://git.drupal.org/project/google_calendar_service.git"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "google/apiclient": "^2.0"
+  }
+}

@@ -1,3 +1,22 @@
+.path-calendar .field-gcs-calendar-event--calendar,
+.path-calendar .field-gcs-calendar-event--user-id,
+.path-calendar .field-gcs-calendar-event--name .field-label{
+  display:none;
+}
+
+.path-calendar .main-container{
+  margin-bottom:200px;
+}
+
+.path-calendar .field-label{
+  color: #376076;
+  font-weight:400;
+}
+
+.path-calendar .field-item{
+  padding-bottom:15px;
+}
+
 .page-node-97 .field-node--comment{
   display:none;
 }
@@ -13,6 +32,89 @@
 .page-node-99 h4{
   color:#376076;
 }
+
+
+/* -------------------- N3C EVENTS --------------- */
+.footer-wrap .footer-message {
+    background-color: inherit !important;
+}
+
+.footer-wrap .footer-message h2.block-title, .footer-wrap h2.block-title{
+  color: #376076 !important;
+}
+
+.slick--view--n3c-events .slick__slide{
+  vertical-align: top;
+}
+
+.slick--view--n3c-events .slick-next:after {
+    font-weight: 200;
+    content: "\f054";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #376076;
+}
+
+.slick--view--n3c-events .slick-prev:before {
+    font-weight: 200;
+    content: "\f053";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #376076;
+}
+
+.slick--view--n3c-events button{
+  border: 0px;
+  margin: 3px;
+  background: white;
+}
+
+
+.slick--view--n3c-events .views-field-start-date {
+    background-image: linear-gradient(to bottom right, #082e4f, 60%, #127285);
+    color: white;
+    height: 50px;
+    width: 55px;
+    display: inline-grid;
+    justify-content: right;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 1px;
+    float: left;
+}
+
+.slick--view--n3c-events .views-field-start-date .field-content {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 90%;
+    text-align: right;
+    position: relative;
+    max-width: 50px;
+    top: 12px;
+    left: 2px;
+}
+
+.slick--view--n3c-events .views-field-name {
+    width: calc(100% - 55px);
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    line-height: 1em !important;  
+    float:right;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.slick--view--n3c-events .views-field.views-field-end-date {
+    display: inline-flex;
+    vertical-align: -webkit-baseline-middle;
+    color: grey;
+    width: calc(100% - 55px);
+    text-align: left;
+    float:right;
+    padding-left: 15px;
+    padding-right: 35px;
+}
+
 
 
 /* ----------------- N3C Main Page --------------- */
@@ -150,12 +252,48 @@ form.comment-comment-form .js-filter-wrapper.form-inline.js-form-wrapper.form-wr
 }
 
 /* ------------------- Meet the team styling -------------------------------------  */
+.page-node-12 .blazy--view  li{
+  border: none;
+}
+.page-node-12  .blazy--view--workstream-teams .views-field-field-workstream li{
+  font-weight: 500;
+  color: #127285;
+  padding:0px;
+}
+.page-node-12  .blazy--view--workstream-teams .views-field-field-workstream ul{
+  padding-top:3px;
+}
+.page-node-12 .blazy--view .views-field-title{
+  font-size: 18px;
+}
+
+
+
 .page-node-12 article .node__content .col{
   padding-top:20px;
 }
 
 .page-node-12 article .node__content .col .views-field-title .field-content{
   font-size: 18px;
+}
+
+.page-node-12 #views-bootstrap-workstream-teams-block-1 .row{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.page-node-12 #views-bootstrap-workstream-teams-block-1 .list-group-item{
+  border: 0px !important;
+  margin-bottom: 0px !important;
+  font-weight: 500;
+  color: #127285;
+  padding:0px;
+}
+
+.page-node-12 #views-bootstrap-workstream-teams-block-1 .list-group{
+  margin-bottom:0px !important;
+  margin-top: 5px;
 }
 
 /* ------------------- Front Page and other -------------------------------------  */

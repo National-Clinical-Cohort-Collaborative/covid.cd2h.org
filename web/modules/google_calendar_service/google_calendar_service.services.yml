@@ -1,0 +1,16 @@
+services:
+  google_calendar_service.google_http_client.factory:
+    class: Drupal\google_calendar_service\GoogleHttpClientFactory
+    arguments: ['@config.factory', '@file_system']
+
+  google_calendar_service.google_http_client:
+    class: Google_Client
+    factory: google_calendar_service.google_http_client.factory:get
+
+  google_calendar_service.import_events:
+    class: Drupal\google_calendar_service\CalendarImport
+    arguments: ['@google_calendar_service.google_http_client', '@config.factory', '@entity_type.manager', '@logger.factory']
+
+  google_calendar_service.edit_events:
+    class: Drupal\google_calendar_service\CalendarEditEvents
+    arguments: ['@google_calendar_service.google_http_client', '@config.factory', '@entity_type.manager', '@logger.factory', '@current_user']

@@ -1,0 +1,5 @@
+entity.gcs_calendar.add_form:
+  route_name: entity.gcs_calendar.add_form
+  title: 'Add Calendar'
+  appears_on:
+    - entity.gcs_calendar.collection
